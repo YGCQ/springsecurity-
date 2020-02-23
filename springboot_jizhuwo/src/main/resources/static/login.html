@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>登录</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<!--登录框-->
+<div align="center">
+    <h2>用户自定义登录页面</h2>
+    <fieldset style="width: 300px;">
+        <legend>登录框</legend>
+        <form action="/login/form" method="post">
+            <table>
+                <tr>
+                    <th>用户名：</th>
+                    <td><input name="username" /> </td>
+                </tr>
+                <tr>
+                    <th>密码：</th>
+                    <td><input type="password" name="password" /> </td>
+                </tr>
+                <tr>
+                    <th>记住我：</th>
+                    <td><input type="checkbox" name="remember-me" value="true" checked="checked" /></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button type="submit">登录</button></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</div>
+
+</body>
+
+</html>
